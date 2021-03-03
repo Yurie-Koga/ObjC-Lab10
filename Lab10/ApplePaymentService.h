@@ -12,9 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ApplePaymentService : NSObject<PaymentDelegate>
 
-- (void)processPaymentAmount:(NSInteger *) paymentAmount;
-- (BOOL)canProcessPayment;
-
 @end
 
 NS_ASSUME_NONNULL_END
